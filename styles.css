@@ -134,23 +134,26 @@ main {
 }
 
 #hire {
-  background-color: blue;
+  background-color: #155eef;
   color: white;
   height: 44px;
   width: 160px;
   left: 0px;
   top: 0px;
   border-radius: 8px;
+  border-color: #155eef;
+  border-style: 0;
 }
 
 #seersm {
-  background-color: blue;
-  color: white;
+  background-color: white;
+  color: blue;
   height: 44px;
   width: 160px;
   left: 0px;
   top: 0px;
   border-radius: 8px;
+  border-color: #155eef;
 }
 
 footer {
