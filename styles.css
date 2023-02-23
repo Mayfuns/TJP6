@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Halant:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap");
+
+* {
+  padding: o;
+}
+
+body {
+  background-color: black;
+  margin-left: 100px;
+}
+
+main {
+  height: 1205px;
+  width: 1512px;
+  left: 168px;
+  top: -19px;
+  border-radius: 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.home {
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+}
+
+.abt {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.abt button {
+  color: #155eef;
+  height: 44px;
+  width: 94px;
+  left: 346.5px;
+  border-radius: 8px;
+  margin-top: 19px;
+  border-color: #155eef;
+}
+
+.second {
+  display: flex;
+  color: white;
+  justify-content: space-around;
+}
+
+.third {
+  background-color: white;
+  display: flex;
+  height: 438px;
+  gap: 100px;
+}
+
+.third img {
+  width: 516px;
+  height: 374px;
+  display: flex;
+  margin-top: 32px;
+  margin-left: 120px;
+}
+.word1 {
+  padding-left: 100px;
+}
+.word1 h2 {
+  font-family: Halant;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 48px;
+  letter-spacing: 0.5px;
+  text-align: left;
+  color: #b8b8b8;
+}
+
+.word1 h1 {
+  font-family: Halant;
+  font-size: 56px;
+  font-weight: 600;
+  line-height: 67px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+}
+
+.word1 p {
+  font-family: Manrope;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 48px;
+  letter-spacing: 0.5px;
+  text-align: left;
+  width: 75%;
+}
+
+.prj {
+  height: 44px;
+  width: 164px;
+  left: 0px;
+  top: 160px;
+  border-radius: 8px;
+  padding: 10px 16px 10px 16px;
+  background: #155eef;
+  color: #ffffff;
+  font-family: Manrope;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+}
+
+.word2 {
+  margin-top: 30px;
+}
+
+.word h3 {
+  font-family: "Halant", serif;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 50px;
+}
+
+.word2 p {
+  font-family: Manrope;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0.5px;
+  text-align: justified;
+  width: 75%;
+}
+
+#hire {
+  background-color: blue;
+  color: white;
+  height: 44px;
+  width: 160px;
+  left: 0px;
+  top: 0px;
+  border-radius: 8px;
+}
+
+#seersm {
+  background-color: blue;
+  color: white;
+  height: 44px;
+  width: 160px;
+  left: 0px;
+  top: 0px;
+  border-radius: 8px;
+}
+
+footer {
+  background: #080808;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 5%;
+  align-items: center;
+}
+/* .footer-logo { */
+/* display: flex; */
+/* gap: 170px; */
+/* color: white; */
+/* } */
+
+.lg {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.log img {
+  width: 70%;
+}
+.lg p {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 50px;
+  margin-left: -20px;
+}
+
+.md {
+  display: flex;
+  gap: 20px;
+}
+.ad p {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+}
