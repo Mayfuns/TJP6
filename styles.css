@@ -161,11 +161,6 @@ footer {
   padding: 16px 5%;
   align-items: center;
 }
-/* .footer-logo { */
-/* display: flex; */
-/* gap: 170px; */
-/* color: white; */
-/* } */
 
 .lg {
   display: flex;
@@ -191,4 +186,8 @@ footer {
   font-weight: 500;
   font-size: 20px;
   line-height: 150%;
+}
+.bobo {
+  /* align-items: center; */
+  /* justify-content: space-evenly; */
 }
