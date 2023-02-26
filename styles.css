@@ -3,7 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap");
 
 * {
-  padding: o;
+  padding: 0;
 }
 
 body {
@@ -20,17 +20,18 @@ main {
   display: flex;
   flex-direction: column;
 }
-
+#Img {
+  padding-right: 40%;
+}
 .home {
   background-color: white;
   display: flex;
   justify-content: space-around;
 }
-
 .abt {
   display: flex;
   justify-content: space-between;
-  gap: 30px;
+  gap: 100px;
 }
 
 .abt button {
@@ -42,7 +43,13 @@ main {
   margin-top: 19px;
   border-color: #155eef;
 }
-
+.abt h2 {
+  color: #080808;
+  text-decoration: none;
+}
+.abt a {
+  text-decoration: none;
+}
 .second {
   display: flex;
   color: white;
@@ -64,7 +71,7 @@ main {
   margin-left: 120px;
 }
 .word1 {
-  padding-left: 100px;
+  padding-left: 80px;
 }
 .word1 h2 {
   font-family: Halant;
@@ -79,8 +86,8 @@ main {
 .word1 h1 {
   font-family: Halant;
   font-size: 56px;
-  font-weight: 600;
-  line-height: 67px;
+  font-weight: 200;
+  line-height: 50px;
   letter-spacing: 0em;
   text-align: left;
   color: #ffffff;
@@ -91,9 +98,10 @@ main {
   font-size: 32px;
   font-weight: 500;
   line-height: 48px;
-  letter-spacing: 0.5px;
+  /* letter-spacing: 1px; */
   text-align: left;
   width: 75%;
+  margin-bottom: 5px;
 }
 
 .prj {
@@ -134,7 +142,7 @@ main {
 }
 
 #hire {
-  background-color: #155eef;
+  background-color: blue;
   color: white;
   height: 44px;
   width: 160px;
@@ -191,6 +199,5 @@ footer {
   line-height: 150%;
 }
 .bobo {
-  /* align-items: center; */
-  /* justify-content: space-evenly; */
+  padding-right: 10%;
 }
