@@ -5,64 +5,66 @@
 * {
   padding: 0;
 }
-
 body {
   background-color: black;
-  /* margin-left: 100px; */
 }
-
 main {
-  /* height: 1205px; */
-  /* width: 1512px; */
-  /* left: 168px; */
-  /* top: -19px; */
   border-radius: 0px;
   display: flex;
   flex-direction: column;
 }
-#Img {
-  padding-right: 40%;
-}
 .home {
   background-color: white;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  padding: 6px 6%;
+  align-items: center;
+}
+.logotag {
+  display: flex;
+  width: 20%;
+  align-items: center;
+}
+#JP {
+  color: #155eef;
+  padding: 5%;
+  font-weight: 700;
+  font-size: 33.28px;
+  line-height: 0px;
+  margin-left: -20px;
 }
 .abt {
   display: flex;
   justify-content: space-between;
   gap: 100px;
+  align-items: center;
 }
-
 .abt button {
   color: #155eef;
   height: 44px;
   width: 94px;
   left: 346.5px;
   border-radius: 8px;
-  margin-top: 19px;
   border-color: #155eef;
 }
 .abt h2 {
   color: #080808;
-  text-decoration: none;
 }
 .abt a {
   text-decoration: none;
+  margin-bottom: -10px;
 }
 .second {
   display: flex;
   color: white;
   justify-content: space-around;
 }
-
 .third {
   background-color: white;
   display: flex;
   height: 438px;
   gap: 100px;
 }
-
 .third img {
   width: 516px;
   height: 374px;
@@ -82,7 +84,6 @@ main {
   text-align: left;
   color: #b8b8b8;
 }
-
 .word1 h1 {
   font-family: Halant;
   font-size: 56px;
@@ -92,7 +93,6 @@ main {
   text-align: left;
   color: #ffffff;
 }
-
 .word1 p {
   font-family: Manrope;
   font-size: 32px;
@@ -103,7 +103,6 @@ main {
   width: 75%;
   margin-bottom: 5px;
 }
-
 .prj {
   height: 44px;
   width: 164px;
@@ -119,18 +118,15 @@ main {
   line-height: 24px;
   letter-spacing: 0.5px;
 }
-
 .word2 {
   margin-top: 30px;
 }
-
 .word h3 {
   font-family: "Halant", serif;
   font-size: 32px;
   font-weight: 600;
   line-height: 50px;
 }
-
 .word2 p {
   font-family: Manrope;
   font-size: 24px;
@@ -140,7 +136,6 @@ main {
   text-align: justified;
   width: 75%;
 }
-
 #hire {
   background-color: blue;
   color: white;
@@ -152,7 +147,6 @@ main {
   border-color: #155eef;
   border-style: 0;
 }
-
 #seersm {
   background-color: white;
   color: blue;
@@ -172,13 +166,11 @@ footer {
   padding: 16px 5%;
   align-items: center;
 }
-
 .lg {
   display: flex;
   align-items: center;
   gap: 2px;
 }
-
 .log img {
   width: 70%;
 }
@@ -188,7 +180,6 @@ footer {
   line-height: 50px;
   margin-left: -20px;
 }
-
 .md {
   display: flex;
   gap: 20px;
