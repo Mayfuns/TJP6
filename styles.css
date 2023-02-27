@@ -170,12 +170,6 @@ footer {
 .log img {
   width: 70%;
 }
-.lg p {
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 50px;
-  margin-left: -20px;
-}
 .md {
   display: flex;
   gap: 20px;
