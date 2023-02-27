@@ -25,14 +25,6 @@ main {
   width: 20%;
   align-items: center;
 }
-#JP {
-  color: #155eef;
-  padding: 5%;
-  font-weight: 700;
-  font-size: 33.28px;
-  line-height: 0px;
-  margin-left: -20px;
-}
 .abt {
   display: flex;
   justify-content: space-between;
@@ -69,8 +61,8 @@ main {
   /* padding: 5%; */
 }
 .third img {
-  width: 516px;
-  height: 374px;
+  /* width: 516px; */
+  /* height: 374px; */
   display: flex;
   margin-top: 32px;
   margin-left: 120px;
