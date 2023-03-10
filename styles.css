@@ -6,9 +6,10 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  /* text-decoration: none; */
 }
 body {
-  background-color: black;
+  background-color: white;
 }
 main {
   border-radius: 0px;
@@ -23,9 +24,9 @@ main {
   align-items: center;
 }
 .logotag {
-  display: flex;
+  /* display: flex; */
   width: 20%;
-  align-items: center;
+  /* align-items: center; */
 }
 .abt {
   display: flex;
@@ -37,7 +38,7 @@ main {
   color: #155eef;
   height: 44px;
   width: 94px;
-  left: 346.5px;
+  /* left: 346.5px; */
   border-radius: 8px;
   border-color: #155eef;
 }
@@ -53,7 +54,11 @@ main {
   color: white;
   justify-content: space-between;
   align-items: center;
-  padding: 56px 120px 0;
+  padding: 56px 120px 0px;
+  background: #080808;
+}
+.bobo img {
+  display: block;
 }
 .third {
   background-color: white;
@@ -65,8 +70,8 @@ main {
 }
 .third img {
   display: flex;
-  margin-top: 32px;
-  margin-left: 120px;
+  /* margin-top: 32px;
+  margin-left: 120px; */
 }
 .word1 {
   padding-left: 80px;
@@ -141,13 +146,94 @@ main {
   border-color: #155eef;
   padding: 10px 16px;
 }
-
+.fourth {
+  width: 100%;
+  background: #e6e6e6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 32px;
+  position: relative;
+}
+.pic5 {
+  width: 45%;
+  padding: 5%;
+  margin-left: 25px;
+}
+.pic5 img {
+  width: 100%;
+}
+.word3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  background: #ffffff;
+  width: 40%;
+  line-height: 15%;
+  padding: 70px 40px;
+  bottom: 60px;
+  gap: 45px;
+  width: 45%;
+  position: absolute;
+  margin-left: 35%;
+  margin-top: 60%;
+}
+.wh3 {
+  font-family: "Halant";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 5px;
+  /* bottom: 40%; */
+  /* gap: 15%; */
+}
+#mainword {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  text-align: justify;
+  letter-spacing: 0.5px;
+  gap: 5%;
+  line-height: 25px;
+}
+.joy {
+  display: flex;
+  flex-direction: row;
+  line-height: 5px;
+  align-items: flex-start;
+  text-align: justify;
+}
+#jy {
+  font-family: "Halant";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  text-align: justify;
+  letter-spacing: 0.5px;
+  color: #525252;
+}
+#dash {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+}
+#ct {
+  font-family: "Halant";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  color: #525252;
+  justify-content: center;
+}
 .desktop {
   background: #080808;
   color: #fff;
   display: flex;
   justify-content: space-between;
-  padding: 16px 5%;
+  padding: 16px 8px;
   align-items: center;
 }
 .lg {
@@ -155,17 +241,25 @@ main {
   align-items: center;
   gap: 2px;
 }
+.log {
+  margin-left: 40%;
+}
 .log img {
-  width: 70%;
+  width: 100%;
+  display: block;
 }
 .md {
   display: flex;
   gap: 20px;
 }
+/* .ad {
+  align-items: flex-end;
+} */
 .ad p {
   font-weight: 500;
   font-size: 20px;
   line-height: 150%;
+  /* width: 100%; */
 }
 .mat {
   display: none;
@@ -175,9 +269,13 @@ main {
 }
 
 @media (max-width: 768px) {
+  body {
+    background: #080808;
+  }
   .home {
     padding: 0px 8px;
   }
+
   .abt {
     display: none;
   }
@@ -289,6 +387,30 @@ main {
     align-items: center;
     padding: 10px 16px;
   }
+  .fourth {
+    /* display: block; */
+    justify-content: center;
+    align-items: center;
+    /* position: unset; */
+    /* background: #080808; */
+    margin-top: 10%;
+    /* gap: 16px; */
+    padding: 16px 0px 39px 0px;
+  }
+  .word3 {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    padding: 16px;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-top: auto;
+  }
+  .pic5 {
+    display: none;
+  }
   .desktop {
     display: none;
   }
@@ -297,12 +419,13 @@ main {
     flex-direction: column;
     align-items: center;
     padding: 0px 0px 16px;
-    justify-content: center;
+    justify-content: space-between;
   }
   .topfooter {
     display: flex;
     align-items: center;
     padding: 16px 8px;
+    flex-direction: row;
   }
   .ft {
     display: flex;
