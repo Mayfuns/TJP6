@@ -407,6 +407,7 @@ main {
     justify-content: space-between;
     margin-left: auto;
     margin-top: auto;
+    background: #e6e6e6;
   }
   .pic5 {
     display: none;
