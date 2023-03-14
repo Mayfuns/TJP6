@@ -393,7 +393,7 @@ main {
     align-items: center;
     /* position: unset; */
     /* background: #080808; */
-    margin-top: 10%;
+    margin-top: 15%;
     /* gap: 16px; */
     padding: 16px 0px 39px 0px;
   }
@@ -430,6 +430,7 @@ main {
     align-items: center;
     padding: 16px 8px;
     flex-direction: row;
+    gap: 35px;
   }
   .ft {
     display: flex;
@@ -445,5 +446,6 @@ main {
     font-weight: 500;
     font-size: 15.9623px;
     line-height: 150%;
+    gap: 10px;
   }
 }
