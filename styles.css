@@ -415,6 +415,9 @@ main {
   .desktop {
     display: none;
   }
+  .joy {
+    margin-right: 40%;
+  }
   .mobile {
     display: flex;
     flex-direction: column;
